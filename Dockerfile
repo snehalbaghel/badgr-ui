@@ -5,7 +5,7 @@ WORKDIR /app
 COPY . .
 COPY src/environments/environment.prod.ts.example src/environments/environment.prod.ts
 
-RUN npm ci && npm run build
+RUN npm install && npm run build
 
 # Serve it on nginx
 

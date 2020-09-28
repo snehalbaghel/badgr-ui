@@ -7,6 +7,6 @@ if [ -z "$BADGR_UI_CONFIG_FILE" ]; then
     fi
 else
     echo "Using $BADGR_UI_CONFIG_FILE as config"
-    cp $UI_CONFIG_FILE src/environments/config.json
+    cp $BADGR_UI_CONFIG_FILE src/environments/config.json
     cp .docker/environment.from.json.copy src/environments/environment.prod.ts
 fi

@@ -1,4 +1,4 @@
 import { BadgrEnvironment } from './badgr-environment';
-import * as config from './config.json';
+import * as config from '../assets/config.json';
 
 export const environment: BadgrEnvironment = config;
